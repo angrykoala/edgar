@@ -1,4 +1,4 @@
-syntax hi = function (ctx) {
-  return #`console.log('hello, world!')`;
-}
+// sweet_code.js
+import { hi } from './macros/hello_macro.sjs'
+
 hi

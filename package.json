@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "sjs index.js -o build.js && node xejs_compiler.js"
+    "start": "node xejs_precompiler && sjs build.js -o build.js && node xejs_compiler.js"
   },
   "repository": {
     "type": "git",

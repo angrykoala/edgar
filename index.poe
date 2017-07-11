@@ -1,7 +1,4 @@
-// sweet_code.js
-import { hi } from './macros/hello_macro.sjs'
-import { + } from './macros/operators.sjs'
-
+// EDGAR code test
 class OperatorTest{
     constructor(number){
         this.number=number;

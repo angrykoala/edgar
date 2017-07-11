@@ -3,7 +3,7 @@ class OperatorTest{
     constructor(number){
         this.number=number;
     }
-    add(otherThing){
+    _operatorAdd(otherThing){
         this.number=this.number+otherThing.number;
         return this
     }

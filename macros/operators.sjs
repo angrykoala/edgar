@@ -1,6 +1,16 @@
 'lang sweet.js';
 
 
-export operator + left 1 = (left, right) => {
-    return #`checkAdd(${left},${right})`
+export operator + left 13 = (left, right) => {
+    return #`EdgarOperatorCheck.add(${left},${right})`
+};
+
+export operator - left 13 = (left, right) => {
+    return #`EdgarOperatorCheck.substract(${left},${right})`
+};
+export operator / left 14 = (left, right) => {
+    return #`EdgarOperatorCheck.divide(${left},${right})`
+};
+export operator * left 14 = (left, right) => {
+    return #`EdgarOperatorCheck.multiply(${left},${right})`
 };

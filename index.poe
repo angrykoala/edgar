@@ -7,9 +7,24 @@ class OperatorTest{
         this.number=this.number+otherThing.number;
         return this
     }
+    _operatorSubstract(otherThing){
+        this.number=this.number-otherThing.number;
+        return this
+    }
+    _operatorMultiply(otherThing){
+        this.number=this.number*otherThing.number;
+        return this
+    }
+    _operatorDivide(otherThing){
+        this.number=this.number/otherThing.number;
+        return this
+    }
 }
 
 let a=new OperatorTest(2)
 let b=new OperatorTest(10)
 
 console.log(a+b)
+console.log(a-b)
+console.log(a*b)
+console.log(a/b)

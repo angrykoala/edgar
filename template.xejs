@@ -1,3 +1,0 @@
-
-{{ include ./lib/lib.js}}
-{{ include ./build.js}}

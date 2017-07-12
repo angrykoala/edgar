@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node xejs_precompiler && sjs build.js -o build.js && node xejs_compiler.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
     "@sweet-js/cli": "^3.0.10",
     "@sweet-js/helpers": "^3.1.0",
     "xejs": "~0.7.1"
+  },
+  "dependencies": {
+    "yerbamate": "^2.0.0"
   }
 }
